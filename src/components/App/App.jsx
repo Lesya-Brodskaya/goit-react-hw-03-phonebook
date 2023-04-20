@@ -25,7 +25,7 @@ class App extends Component {
 
     if (isAdded) {
       return alert(`${name} is already in contacts`);
-    };
+    }
 
     const contact = {
       id: shortid.generate(),
